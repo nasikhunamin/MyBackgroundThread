@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity(), MyAsyncCallback {
         override fun doInBackground(vararg params: String?): String {
             Log.d(LOG_ASYNC, "status : doInBackground")
             var output : String? = null
-
             try {
                 // mengambil value yang diberikan pada saat excute background thread
                 val input = params[0]
